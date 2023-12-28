@@ -25,13 +25,14 @@ pip install numpy
 To use the neural network, simply clone the repository and run the main script:
 
 ```bash
-git clone [repository-url]
-cd [repository-folder]
+git clone https://github.com/enzo-berry/NeuralNetwork_xor
+cd NeuralNetwork_xor
 python main.py
 ```
 
-## Example
-The current implementation solves the XOR problem. The network takes two binary inputs and predicts a binary output.
+## Results
+
+![Output of program](example.png)
 
 ## Source
 This implementation is inspired by discussions and examples on matrix multiplications in machine learning from [Data Science Stack Exchange](https://datascience.stackexchange.com/questions/75855/what-types-of-matrix-multiplication-are-used-in-machine-learning-when-are-they).
